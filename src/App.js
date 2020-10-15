@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <section>
         <a href={nowaste} download>
-          <img src={game}></img>
+          <img alt="The Eurojust game" src={game}></img>
           <div>
             <h2>
               Are you ready to enter the Coordination Center and lead an Action Day?
