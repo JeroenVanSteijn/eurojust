@@ -1,24 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
+import game from './game.png';
+import nowaste from './nowaste.ppsx';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
+      <section>
+        <a href={nowaste} download>
+          <img src={game}></img>
+          <p>Click here on on the image to download the .ppsx file to start the game.</p>
+          <p>The game requires microsoft office to be installed.</p>
         </a>
-      </header>
+      </section>
     </div>
   );
 }
