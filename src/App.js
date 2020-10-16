@@ -1,13 +1,12 @@
 import React from 'react';
 import game from './game.png';
-import nowaste from './nowaste.ppsx';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <section>
-        <a href={nowaste} download>
+        <a href={process.env.PUBLIC_URL + "Eurojust-No-Waste-online-game.ppsx"} download>
           <h1>
             Are you ready to enter the Coordination Center and lead an Action Day?
           </h1>
