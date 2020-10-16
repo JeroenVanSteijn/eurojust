@@ -1,6 +1,6 @@
 @media screen and (min-width: 1000px) {
   section > a {
-    height: 50vh;
+    height: 40vh;
     margin: auto;
   }
   
@@ -10,7 +10,7 @@
   }
   
   section {
-    height: 100vh;
+    height: 50vh;
     display: grid;
   }
   
@@ -23,11 +23,13 @@ section > a > img{
 
 body {
   background-color: #282c34;
+  background-image: url('./background.png');
+  font-family: 'Open Sans', sans-serif;
 }
 
 p, a, i {
   text-align: center;
-  color: white !important;
+  color: black !important;
   text-decoration: none !important;
 }
 
