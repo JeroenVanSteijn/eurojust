@@ -8,7 +8,7 @@ function App() {
       <section>
         <a href={process.env.PUBLIC_URL + "Eurojust-No-Waste-online-game.ppsx"} download>
           <h1>
-            Are you ready to enter the Coordination Center and lead an Action Day?
+            Are you ready to enter the Coordination Centre and lead an Action Day?
           </h1>
           <img alt="The Eurojust game" src={game}></img>
           <div>
